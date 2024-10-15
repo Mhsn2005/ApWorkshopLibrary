@@ -32,7 +32,7 @@ public class Member implements Actions{
     @Override
     public void signIn(Library library) {
         setLibrary(library);
-        library.si
+        library.addMembers(this);
     }
 
     public int getId() {
